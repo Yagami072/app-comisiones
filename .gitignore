@@ -10,8 +10,8 @@ venv/
 dist/
 build/
 .streamlit/
-*.pdf
-*.csv
+Reporte_Comisiones.pdf
+ventas_comisiones.csv
 .DS_Store
 .vscode/
 *.pyc
