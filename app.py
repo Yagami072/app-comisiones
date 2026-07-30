@@ -28,7 +28,7 @@ if os.path.exists("ventas_comisiones.csv"):
         df_ven_temp.to_csv("ventas_comisiones.csv", index=False)
 
 # --- INICIALIZACIÓN DE DATOS ---
-VENDEDORES = ["PACO", "YAEL", "ARELY", "DANIEL", "FERNANDO", "ISABELA", "RENATA", "AMEYALI", "PATRICIA SOTO"]
+VENDEDORES = ["PACO", "YAEL", "ARELY", "DYLAN", "FERNANDO", "PATRICIA SOTO"]
 
 if not os.path.exists("catalogo_articulos.csv"):
     articulos_3 = ["Frazada Peluda", "Cortina Bordada Cruzada", "Cortina Bordada Doble", "Cortina Bordada", "Michi Abrazable", "Borrega Generico Mat", "Borrega Generico Ks", "Borrega Amigo Disney Mat", "Borrega Amigo Disney Ind", "Frazada Voga Casa Isla", "Sabanas Franela Sta Ana", "Cobertor Rashel Mat Generico", "Cobertor Rabbit Colap", "Cola De Sirena", "Cobertor Bonded K.S", "Cobertor Pachonato Mat Ponchito", "Sabanas Franela Disney Ind Colpa", "Bata De Descanso Infantil Licona"]
